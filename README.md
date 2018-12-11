@@ -1,4 +1,4 @@
-# utoken-portal
+# utoken.cash
 
 ## Project setup
 ```
