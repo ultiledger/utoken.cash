@@ -44,18 +44,18 @@
             </download>
           </div>
           <div class="qrcode">
-            <img src="static/img/qrcode.png" alt="二维码"/>
+            <img src="static/img/qrcode.png" alt="qrcode"/>
             <p class="text-center qrcode-tip">{{$t('home.scanTip')}}</p>
           </div>
         </div>
         <div class="right">
-          <img :src="$i18n.locale === 'en' ? 'static/img/part1_phone_en.png' : 'static/img/part1_phone_zh.png'" alt="手机图"/>
+          <img :src="$i18n.locale === 'en' ? 'static/img/part1_phone_en.png' : 'static/img/part1_phone_zh.png'" alt="utoken_wallet"/>
         </div>
       </div>
     </div>
     <div class="part2">
       <div class="pull-left left">
-        <img src="static/img/pic1.png" alt="part2配图"/>
+        <img src="static/img/pic1.png" alt="utoken_assets"/>
       </div>
       <div class="pull-right right">
         <div class="content">
@@ -67,7 +67,7 @@
     </div>
     <div class="part3">
       <div class="pull-right right">
-        <img src="static/img/pic2.png" alt="part3配图"/>
+        <img src="static/img/pic2.png" alt="utoken_security"/>
       </div>
       <div class="pull-left left">
         <div class="content">
@@ -81,11 +81,21 @@
       <div class="part4-content">
         <h2 class="part4-content-title x-x-large-font">{{$t('home.ecoPartners')}}</h2>
         <div class="partners">
-          <img src="static/img/Bitcoin.png" class="partner" alt="Bitcoin"/>
-          <img src="static/img/Ripple.png" class="partner" alt="Ripple"/>
-          <img src="static/img/ETH.png" class="partner" alt="ETH"/>
-          <img src="static/img/Stellar.png" class="partner" alt="Stellar"/>
-          <img src="static/img/Ripplefox.png" class="partner" alt="Ripplefox"/>
+          <a href="https://bitcoin.org"> 
+            <img src="static/img/Bitcoin.png" class="partner" alt="Bitcoin"/>
+          </>
+          <a href="https://ripple.com/">
+             <img src="static/img/Ripple.png" class="partner" alt="Ripple"/>
+          </a>
+          <a href="https://ethereum.org/">
+             <img src="static/img/ETH.png" class="partner" alt="ETH"/>
+          </a>
+          <a href="https://www.stellar.org/">
+            <img src="static/img/Stellar.png" class="partner" alt="Stellar"/>
+          </a>
+          <a href="https://ripplefox.com/">
+            <img src="static/img/Ripplefox.png" class="partner" alt="Ripplefox"/>
+          </a>
         </div>
       </div>
     </div>
