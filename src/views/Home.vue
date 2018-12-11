@@ -83,7 +83,7 @@
         <div class="partners">
           <a href="https://bitcoin.org"> 
             <img src="static/img/Bitcoin.png" class="partner" alt="Bitcoin"/>
-          </>
+          </a>
           <a href="https://ripple.com/">
              <img src="static/img/Ripple.png" class="partner" alt="Ripple"/>
           </a>
