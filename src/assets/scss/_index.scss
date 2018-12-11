@@ -1,0 +1,48 @@
+@import "variables";
+
+body{
+  font-size: $normal-font;
+  color: $font-color;
+  line-height: 1.42857143;
+}
+
+/**
+文字颜色
+ */
+ .text-center{
+  text-align: center;
+ }
+ .text-muted {
+  color: $muted-color;
+}
+.x-small-font{
+  font-size: $x-small-font !important;
+}
+.small-font{
+  font-size: $small-font !important;
+}
+.normal-font{
+  font-size: $normal-font !important;
+}
+.big-font{
+  font-size: $big-font !important;
+}
+.large-font{
+  font-size: $large-font !important;
+}
+.x-large-font{
+  font-size: $x-large-font !important;
+}
+
+.x-large-font{
+  font-size: $x-large-font !important;
+}
+.x-x-large-font{
+  font-size: $x-x-large-font !important;
+}
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
