@@ -1,6 +1,7 @@
 export default {
   home: {
     walletName: 'Utoken钱包',
+    course: '教程',
     ecoPartners: '生态伙伴',
     lang: "English",
     title1: "你的钱包，更懂你",

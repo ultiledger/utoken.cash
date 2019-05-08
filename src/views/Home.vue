@@ -11,6 +11,7 @@
         <span class="pc-nav">
           <a class="nav-item">{{$t('home.walletName')}}</a>
           <a class="nav-item" href="#part4">{{$t('home.ecoPartners')}}</a>
+          <a class="nav-item" @click="openCourse">{{$t('home.course')}}</a>
           <a class="nav-item" @click="changeLocale">{{$t('home.lang')}}</a>
         </span>
         <button type="button" @click="showMobileNav = !showMobileNav" class="navbar-toggle mobile-nav-btn">
@@ -21,6 +22,7 @@
         <span v-if="showMobileNav" class="mobile-nav" @click="showMobileNav = false">
           <a class="nav-item">{{$t('home.walletName')}}</a>
           <a class="nav-item" href="#part4">{{$t('home.ecoPartners')}}</a>
+          <a class="nav-item" @click="openCourse">{{$t('home.course')}}</a>
           <a class="nav-item" @click="changeLocale">{{$t('home.lang')}}</a>
         </span>
       </nav>
@@ -96,6 +98,9 @@
           <a href="https://ripplefox.com/">
             <img src="static/img/Ripplefox.png" class="partner" alt="Ripplefox"/>
           </a>
+          <!--<a href="https://www.ultiledger.io/">
+            <img src="static/img/ult.svg" class="partner" alt="Ultiledger"/>
+          </a>-->
         </div>
       </div>
     </div>
@@ -121,6 +126,9 @@ export default {
     };
   },
   methods: {
+    openCourse () {
+      window.open('https://tutorial.utoken.cash');
+    },
     totop () {
       window.scroll(0, 0);
     },
