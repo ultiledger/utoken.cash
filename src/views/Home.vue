@@ -149,7 +149,7 @@ export default {
       if (this.isWeixin) {
         return;
       }
-      window.location.href = "itms-services://?action=download-manifest&url=https%3A%2F%2Fwww.pgyer.com%2Fapiv2%2Fapp%2Fplist%3FappKey%3Daaf9f45962f3cba9e159aad114495e82%26_api_key%3Df16c6672198f996f3cd8ff9e3c4d5e02";
+      window.location.href = "itms-services://?action=download-manifest&url=https://utoken.cash/Utoken.plist";
       // window.open("itms-services:///?action=download-manifest&url=https://raw.githubusercontent.com/0hewj0/ultitoken/master/ios.plist", "_blank");
     },
     downloadAndroid () {
@@ -157,7 +157,7 @@ export default {
       if (this.isWeixin) {
         return;
       }
-      window.open("https://www.pgyer.com/apiv2/app/install?appKey=1d15c396db9ba6a6ba1cb1473a38c407&_api_key=f16c6672198f996f3cd8ff9e3c4d5e02", "_self");
+      window.open("/Utoken.apk", "_self");
     }
   }
 };
