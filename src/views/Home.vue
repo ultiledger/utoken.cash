@@ -149,7 +149,7 @@ export default {
       if (this.isWeixin) {
         return;
       }
-      window.location.href = "itms-services://?action=download-manifest&url=https://utoken.cash/Utoken.plist";
+      window.location.href = "https://testflight.apple.com/join/Lx0DJvCm";
       // window.open("itms-services:///?action=download-manifest&url=https://raw.githubusercontent.com/0hewj0/ultitoken/master/ios.plist", "_blank");
     },
     downloadAndroid () {
